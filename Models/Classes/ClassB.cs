@@ -1,6 +1,6 @@
 ﻿namespace DependencyInjectionExercise.Models.Classes
 {
-    public class ClassB
+    public class ClassB//
     {
     }
 }

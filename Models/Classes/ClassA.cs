@@ -6,7 +6,7 @@ namespace DependencyInjectionExercise.Models.Classes
     {
         public void SomeMethod()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");//
         }
     }
 }
