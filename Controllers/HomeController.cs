@@ -19,6 +19,12 @@ namespace DependencyInjectionExercise.Controllers
 
         public IActionResult Index()
         {
+            var instanceA = (InterfaceA)ContainerProvider.Container.Services.GetService(typeof(InterfaceA));
+            var instanceB = (ClassB)ContainerProvider.Container.Services.GetService(typeof(ClassB));
+
+            ViewData["InstanceA"] = instanceA.SomeMethod();
+            ViewData["InstanceB"] = instanceB.SomeOtherMethod();
+
             return View();
         }
 
@@ -31,16 +37,6 @@ namespace DependencyInjectionExercise.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-
-        public void UnityTest()
-        {
-            IUnityContainer container = new UnityContainer();
-            container.RegisterType<InterfaceA, ClassA>(new ContainerControlledLifetimeManager());
-
-            var logger = container.Resolve<InterfaceA>();
-            logger.SomeMethod();
-            Console.ReadKey();
         }
     }
 }

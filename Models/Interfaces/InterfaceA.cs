@@ -2,6 +2,6 @@
 {
     public interface InterfaceA
     {
-        public void SomeMethod();
+        public int SomeMethod();
     }
 }

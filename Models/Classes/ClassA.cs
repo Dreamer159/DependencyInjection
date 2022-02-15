@@ -4,9 +4,10 @@ namespace DependencyInjectionExercise.Models.Classes
 {
     public class ClassA : InterfaceA
     {
-        public void SomeMethod()
+        private int counter;
+        public int SomeMethod()
         {
-            Console.WriteLine("Hello World!");
+            return ++counter;
         }
     }
 }
