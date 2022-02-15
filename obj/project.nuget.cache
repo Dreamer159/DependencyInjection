@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VAiM3fTGNjgQm5iQr6S3CTabpPP9ZPuLyREOepd3pxhrvDhi0gD99jrw+Hm5dVqUZEnr9JrYoOKKUpfhO3wYbg==",
+  "dgSpecHash": "QJkoyfmJLx0roWwB4B7+zdkrajwPukXz010ijfmSRCzUs2r45twfyHphGXggJYdkC74g6b4EfLGIn0fPjER2Ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kostiantyn_s\\Desktop\\Projects\\DependencyInjectionExercise\\DependencyInjectionExercise\\DependencyInjectionExercise.csproj",
+  "projectFilePath": "C:\\Users\\kostiantyn_s\\Desktop\\Projects\\DependencyInjection\\DependencyInjection\\DependencyInjectionExercise.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kostiantyn_s\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\kostiantyn_s\\.nuget\\packages\\unity\\5.11.10\\unity.5.11.10.nupkg.sha512"

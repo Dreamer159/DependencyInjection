@@ -116,11 +116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kostiantyn_s\\Desktop\\Projects\\DependencyInjectionExercise\\DependencyInjectionExercise\\DependencyInjectionExercise.csproj",
+      "projectUniqueName": "C:\\Users\\kostiantyn_s\\Desktop\\Projects\\DependencyInjection\\DependencyInjection\\DependencyInjectionExercise.csproj",
       "projectName": "DependencyInjectionExercise",
-      "projectPath": "C:\\Users\\kostiantyn_s\\Desktop\\Projects\\DependencyInjectionExercise\\DependencyInjectionExercise\\DependencyInjectionExercise.csproj",
+      "projectPath": "C:\\Users\\kostiantyn_s\\Desktop\\Projects\\DependencyInjection\\DependencyInjection\\DependencyInjectionExercise.csproj",
       "packagesPath": "C:\\Users\\kostiantyn_s\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kostiantyn_s\\Desktop\\Projects\\DependencyInjectionExercise\\DependencyInjectionExercise\\obj\\",
+      "outputPath": "C:\\Users\\kostiantyn_s\\Desktop\\Projects\\DependencyInjection\\DependencyInjection\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kostiantyn_s\\AppData\\Roaming\\NuGet\\NuGet.Config",
