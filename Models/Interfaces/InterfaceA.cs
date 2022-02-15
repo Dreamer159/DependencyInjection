@@ -4,4 +4,4 @@
     {
         public void SomeMethod();
     }
-}//
+}
