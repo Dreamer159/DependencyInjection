@@ -3,27 +3,28 @@ using DependencyInjectionExercise.Models.Classes;
 using DependencyInjectionExercise.Models.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using Unity;
-using Unity.Lifetime;
 
 namespace DependencyInjectionExercise.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private InterfaceA _interfaceA;
+        private ClassB _classB;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,
+                               InterfaceA interfaceA,
+                               ClassB classB)
         {
             _logger = logger;
+            _interfaceA = interfaceA;
+            _classB = classB;
         }
 
         public IActionResult Index()
         {
-            var instanceA = (InterfaceA)ContainerProvider.Container.Services.GetService(typeof(InterfaceA));
-            var instanceB = (ClassB)ContainerProvider.Container.Services.GetService(typeof(ClassB));
-
-            ViewData["InstanceA"] = instanceA.SomeMethod();
-            ViewData["InstanceB"] = instanceB.SomeOtherMethod();
+            ViewData["InstanceA"] = _interfaceA.SomeMethod();
+            ViewData["InstanceB"] = _classB.SomeOtherMethod();
 
             return View();
         }

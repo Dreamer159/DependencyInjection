@@ -1,5 +1,16 @@
 {
   "Version": 1,
-  "ProjectMap": {},
-  "NextColorIndex": 0
+  "ProjectMap": {
+    "ec511bf8-946f-435e-a7f8-df4d3fa0388d": {
+      "ProjectGuid": "ec511bf8-946f-435e-a7f8-df4d3fa0388d",
+      "DisplayName": "DependencyInjectionExercise",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
 }
